@@ -9,6 +9,7 @@ import {NgForOf, NgIf} from '@angular/common';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, HeaderComponent, UserComponent, TasksComponent, NgForOf, NgIf],
   templateUrl: './app.html',
   styleUrl: './app.css'
